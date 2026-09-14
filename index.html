@@ -13109,28 +13109,9 @@ div#notebook {
 <div class="prompt input_prompt">In [1]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class="highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">pip</span> install -q geopandas mapclassify thefuzz pyogrio
+<div class="highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="o">%</span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">q</span> <span class="n">geopandas</span> <span class="n">mapclassify</span> <span class="n">thefuzz</span> <span class="n">pyogrio</span>
 </pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area">
-<div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Note: you may need to restart the kernel to use updated packages.
-</pre>
-</div>
-</div>
-<div class="output_area">
-<div class="prompt"></div>
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>
-[notice] A new release of pip is available: 26.2 -&gt; 26.2.1
-[notice] To update, run: python.exe -m pip install --upgrade pip
-</pre>
-</div>
 </div>
 </div>
 </div>
@@ -13723,183 +13704,183 @@ Sin coincidencia en la tabla: 110
 </thead>
 <tbody>
 <tr>
-<th>0</th>
+<th>25</th>
 <td>CÔTE D'IVOIRE</td>
 <td>IVORY COAST</td>
 <td>58</td>
 </tr>
 <tr>
-<th>10</th>
+<th>14</th>
 <td>ESWATINI</td>
-<td>MARTINIQUE (FRANCE)</td>
+<td>LIECHTENSTEIN</td>
 <td>60</td>
 </tr>
 <tr>
-<th>13</th>
+<th>24</th>
 <td>CABO VERDE</td>
 <td>CAPE VERDE</td>
 <td>80</td>
 </tr>
 <tr>
-<th>16</th>
+<th>22</th>
 <td>TIMOR-LESTE</td>
 <td>EAST TIMOR</td>
 <td>81</td>
 </tr>
 <tr>
-<th>23</th>
+<th>13</th>
 <td>KOREA (THE REPUBLIC OF)</td>
-<td>NORTH KOREA</td>
+<td>SOUTH GEORGIA AND THE SOUTH SANDWICH IS (UK)</td>
 <td>86</td>
 </tr>
 <tr>
-<th>24</th>
+<th>7</th>
 <td>LAO PEOPLE'S DEMOCRATIC REPUBLIC (THE)</td>
-<td>CENTRAL AFRICAN REPUBLIC</td>
+<td>DOMINICAN REPUBLIC</td>
 <td>86</td>
 </tr>
 <tr>
-<th>5</th>
-<td>COMOROS (THE)</td>
-<td>COMOROS</td>
-<td>90</td>
-</tr>
-<tr>
-<th>1</th>
-<td>BRUNEI DARUSSALAM</td>
-<td>BRUNEI</td>
-<td>90</td>
-</tr>
-<tr>
-<th>14</th>
-<td>UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN I...</td>
-<td>UNITED KINGDOM</td>
-<td>90</td>
-</tr>
-<tr>
-<th>12</th>
+<th>6</th>
 <td>TANZANIA, THE UNITED REPUBLIC OF</td>
 <td>TANZANIA</td>
 <td>90</td>
 </tr>
 <tr>
-<th>8</th>
-<td>CONGO (THE)</td>
-<td>CONGO</td>
+<th>0</th>
+<td>MOLDOVA (THE REPUBLIC OF)</td>
+<td>MOLDOVA</td>
 <td>90</td>
 </tr>
 <tr>
-<th>19</th>
-<td>UNITED STATES OF AMERICA (THE)</td>
-<td>UNITED STATES</td>
-<td>90</td>
-</tr>
-<tr>
-<th>18</th>
-<td>BAHAMAS (THE)</td>
-<td>BAHAMAS</td>
-<td>90</td>
-</tr>
-<tr>
-<th>9</th>
-<td>GAMBIA (THE)</td>
-<td>GAMBIA</td>
-<td>90</td>
-</tr>
-<tr>
-<th>3</th>
-<td>NORTH MACEDONIA</td>
-<td>MACEDONIA</td>
-<td>90</td>
-</tr>
-<tr>
-<th>4</th>
-<td>SAMOA</td>
-<td>WESTERN SAMOA</td>
-<td>90</td>
-</tr>
-<tr>
-<th>27</th>
-<td>SUDAN (THE)</td>
-<td>SUDAN</td>
-<td>90</td>
-</tr>
-<tr>
-<th>26</th>
+<th>12</th>
 <td>NIGER (THE)</td>
 <td>NIGER</td>
 <td>90</td>
 </tr>
 <tr>
+<th>10</th>
+<td>UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN I...</td>
+<td>UNITED KINGDOM</td>
+<td>90</td>
+</tr>
+<tr>
+<th>15</th>
+<td>BRUNEI DARUSSALAM</td>
+<td>BRUNEI</td>
+<td>90</td>
+</tr>
+<tr>
+<th>9</th>
+<td>SAMOA</td>
+<td>AMERICAN SAMOA (US)</td>
+<td>90</td>
+</tr>
+<tr>
+<th>16</th>
+<td>CONGO (THE)</td>
+<td>CONGO</td>
+<td>90</td>
+</tr>
+<tr>
+<th>8</th>
+<td>BOLIVIA (PLURINATIONAL STATE OF)</td>
+<td>BOLIVIA</td>
+<td>90</td>
+</tr>
+<tr>
+<th>2</th>
+<td>SUDAN (THE)</td>
+<td>SUDAN</td>
+<td>90</td>
+</tr>
+<tr>
+<th>1</th>
+<td>NORTH MACEDONIA</td>
+<td>MACEDONIA</td>
+<td>90</td>
+</tr>
+<tr>
 <th>28</th>
+<td>UNITED STATES OF AMERICA (THE)</td>
+<td>UNITED STATES</td>
+<td>90</td>
+</tr>
+<tr>
+<th>27</th>
+<td>BAHAMAS (THE)</td>
+<td>BAHAMAS</td>
+<td>90</td>
+</tr>
+<tr>
+<th>21</th>
 <td>RUSSIAN FEDERATION (THE)</td>
 <td>RUSSIA</td>
 <td>90</td>
 </tr>
 <tr>
 <th>17</th>
-<td>MOLDOVA (THE REPUBLIC OF)</td>
-<td>MOLDOVA</td>
-<td>90</td>
-</tr>
-<tr>
-<th>21</th>
-<td>BOLIVIA (PLURINATIONAL STATE OF)</td>
-<td>BOLIVIA</td>
-<td>90</td>
-</tr>
-<tr>
-<th>20</th>
 <td>IRAN (ISLAMIC REPUBLIC OF)</td>
 <td>IRAN</td>
 <td>90</td>
 </tr>
 <tr>
-<th>15</th>
+<th>23</th>
+<td>GAMBIA (THE)</td>
+<td>GAMBIA</td>
+<td>90</td>
+</tr>
+<tr>
+<th>26</th>
+<td>COMOROS (THE)</td>
+<td>COMOROS</td>
+<td>90</td>
+</tr>
+<tr>
+<th>11</th>
 <td>NORTHERN MARIANA ISLANDS (THE)</td>
 <td>NORTHERN MARIANA ISLANDS (US)</td>
 <td>91</td>
 </tr>
 <tr>
-<th>7</th>
-<td>CENTRAL AFRICAN REPUBLIC (THE)</td>
-<td>CENTRAL AFRICAN REPUBLIC</td>
-<td>95</td>
-</tr>
-<tr>
-<th>11</th>
-<td>DOMINICAN REPUBLIC (THE)</td>
-<td>DOMINICAN REPUBLIC</td>
-<td>95</td>
-</tr>
-<tr>
-<th>2</th>
+<th>4</th>
 <td>NETHERLANDS (THE)</td>
 <td>NETHERLANDS</td>
 <td>95</td>
 </tr>
 <tr>
-<th>6</th>
+<th>5</th>
+<td>MICRONESIA (FEDERATED STATES OF)</td>
+<td>FEDERATED STATES OF MICRONESIA</td>
+<td>95</td>
+</tr>
+<tr>
+<th>3</th>
 <td>UNITED ARAB EMIRATES (THE)</td>
 <td>UNITED ARAB EMIRATES</td>
 <td>95</td>
 </tr>
 <tr>
-<th>22</th>
-<td>CONGO (THE DEMOCRATIC REPUBLIC OF THE)</td>
-<td>DEMOCRATIC REPUBLIC OF THE CONGO</td>
-<td>95</td>
-</tr>
-<tr>
-<th>25</th>
+<th>18</th>
 <td>PHILIPPINES (THE)</td>
 <td>PHILIPPINES</td>
 <td>95</td>
 </tr>
 <tr>
+<th>19</th>
+<td>DOMINICAN REPUBLIC (THE)</td>
+<td>DOMINICAN REPUBLIC</td>
+<td>95</td>
+</tr>
+<tr>
+<th>20</th>
+<td>CONGO (THE DEMOCRATIC REPUBLIC OF THE)</td>
+<td>DEMOCRATIC REPUBLIC OF THE CONGO</td>
+<td>95</td>
+</tr>
+<tr>
 <th>29</th>
-<td>MICRONESIA (FEDERATED STATES OF)</td>
-<td>FEDERATED STATES OF MICRONESIA</td>
+<td>CENTRAL AFRICAN REPUBLIC (THE)</td>
+<td>CENTRAL AFRICAN REPUBLIC</td>
 <td>95</td>
 </tr>
 </tbody>
@@ -14081,159 +14062,159 @@ Sin coincidencia en la tabla: 110
 </thead>
 <tbody>
 <tr>
-<th>0</th>
+<th>21</th>
 <td>CÔTE D'IVOIRE</td>
 <td>IVORY COAST</td>
 <td>58</td>
 </tr>
 <tr>
-<th>11</th>
+<th>20</th>
 <td>CABO VERDE</td>
 <td>CAPE VERDE</td>
 <td>80</td>
 </tr>
 <tr>
-<th>14</th>
+<th>18</th>
 <td>TIMOR-LESTE</td>
 <td>EAST TIMOR</td>
 <td>81</td>
 </tr>
 <tr>
-<th>1</th>
-<td>BRUNEI DARUSSALAM</td>
-<td>BRUNEI</td>
-<td>90</td>
-</tr>
-<tr>
-<th>7</th>
-<td>CONGO (THE)</td>
-<td>CONGO</td>
-<td>90</td>
-</tr>
-<tr>
-<th>10</th>
-<td>TANZANIA, THE UNITED REPUBLIC OF</td>
-<td>TANZANIA</td>
-<td>90</td>
-</tr>
-<tr>
-<th>3</th>
-<td>NORTH MACEDONIA</td>
-<td>MACEDONIA</td>
-<td>90</td>
-</tr>
-<tr>
-<th>5</th>
-<td>COMOROS (THE)</td>
-<td>COMOROS</td>
-<td>90</td>
-</tr>
-<tr>
-<th>15</th>
+<th>0</th>
 <td>MOLDOVA (THE REPUBLIC OF)</td>
 <td>MOLDOVA</td>
 <td>90</td>
 </tr>
 <tr>
-<th>12</th>
-<td>UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN I...</td>
-<td>UNITED KINGDOM</td>
+<th>6</th>
+<td>TANZANIA, THE UNITED REPUBLIC OF</td>
+<td>TANZANIA</td>
 <td>90</td>
 </tr>
 <tr>
-<th>8</th>
-<td>GAMBIA (THE)</td>
-<td>GAMBIA</td>
+<th>1</th>
+<td>NORTH MACEDONIA</td>
+<td>MACEDONIA</td>
 <td>90</td>
 </tr>
 <tr>
-<th>23</th>
+<th>2</th>
 <td>SUDAN (THE)</td>
 <td>SUDAN</td>
 <td>90</td>
 </tr>
 <tr>
-<th>19</th>
+<th>7</th>
 <td>BOLIVIA (PLURINATIONAL STATE OF)</td>
 <td>BOLIVIA</td>
 <td>90</td>
 </tr>
 <tr>
-<th>18</th>
+<th>13</th>
 <td>IRAN (ISLAMIC REPUBLIC OF)</td>
 <td>IRAN</td>
 <td>90</td>
 </tr>
 <tr>
-<th>17</th>
-<td>UNITED STATES OF AMERICA (THE)</td>
-<td>UNITED STATES</td>
+<th>12</th>
+<td>CONGO (THE)</td>
+<td>CONGO</td>
 <td>90</td>
 </tr>
 <tr>
-<th>16</th>
+<th>19</th>
+<td>GAMBIA (THE)</td>
+<td>GAMBIA</td>
+<td>90</td>
+</tr>
+<tr>
+<th>22</th>
+<td>COMOROS (THE)</td>
+<td>COMOROS</td>
+<td>90</td>
+</tr>
+<tr>
+<th>17</th>
+<td>RUSSIAN FEDERATION (THE)</td>
+<td>RUSSIA</td>
+<td>90</td>
+</tr>
+<tr>
+<th>11</th>
+<td>BRUNEI DARUSSALAM</td>
+<td>BRUNEI</td>
+<td>90</td>
+</tr>
+<tr>
+<th>10</th>
+<td>NIGER (THE)</td>
+<td>NIGER</td>
+<td>90</td>
+</tr>
+<tr>
+<th>8</th>
+<td>UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN I...</td>
+<td>UNITED KINGDOM</td>
+<td>90</td>
+</tr>
+<tr>
+<th>23</th>
 <td>BAHAMAS (THE)</td>
 <td>BAHAMAS</td>
 <td>90</td>
 </tr>
 <tr>
 <th>24</th>
-<td>RUSSIAN FEDERATION (THE)</td>
-<td>RUSSIA</td>
+<td>UNITED STATES OF AMERICA (THE)</td>
+<td>UNITED STATES</td>
 <td>90</td>
 </tr>
 <tr>
-<th>22</th>
-<td>NIGER (THE)</td>
-<td>NIGER</td>
-<td>90</td>
-</tr>
-<tr>
-<th>13</th>
+<th>9</th>
 <td>NORTHERN MARIANA ISLANDS (THE)</td>
 <td>NORTHERN MARIANA ISLANDS (US)</td>
 <td>91</td>
 </tr>
 <tr>
-<th>6</th>
-<td>CENTRAL AFRICAN REPUBLIC (THE)</td>
-<td>CENTRAL AFRICAN REPUBLIC</td>
-<td>95</td>
-</tr>
-<tr>
-<th>9</th>
+<th>15</th>
 <td>DOMINICAN REPUBLIC (THE)</td>
 <td>DOMINICAN REPUBLIC</td>
 <td>95</td>
 </tr>
 <tr>
-<th>2</th>
-<td>NETHERLANDS (THE)</td>
-<td>NETHERLANDS</td>
-<td>95</td>
-</tr>
-<tr>
-<th>4</th>
+<th>3</th>
 <td>UNITED ARAB EMIRATES (THE)</td>
 <td>UNITED ARAB EMIRATES</td>
 <td>95</td>
 </tr>
 <tr>
-<th>21</th>
+<th>14</th>
 <td>PHILIPPINES (THE)</td>
 <td>PHILIPPINES</td>
 <td>95</td>
 </tr>
 <tr>
-<th>20</th>
+<th>5</th>
+<td>MICRONESIA (FEDERATED STATES OF)</td>
+<td>FEDERATED STATES OF MICRONESIA</td>
+<td>95</td>
+</tr>
+<tr>
+<th>4</th>
+<td>NETHERLANDS (THE)</td>
+<td>NETHERLANDS</td>
+<td>95</td>
+</tr>
+<tr>
+<th>16</th>
 <td>CONGO (THE DEMOCRATIC REPUBLIC OF THE)</td>
 <td>DEMOCRATIC REPUBLIC OF THE CONGO</td>
 <td>95</td>
 </tr>
 <tr>
 <th>25</th>
-<td>MICRONESIA (FEDERATED STATES OF)</td>
-<td>FEDERATED STATES OF MICRONESIA</td>
+<td>CENTRAL AFRICAN REPUBLIC (THE)</td>
+<td>CENTRAL AFRICAN REPUBLIC</td>
 <td>95</td>
 </tr>
 </tbody>
